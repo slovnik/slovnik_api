@@ -39,4 +39,10 @@ var routes = Routes{
 		"/api/translate/{word}",
 		translate,
 	},
+	Route{
+		"search",
+		"GET",
+		"/api/search/{term}",
+		search,
+	},
 }
