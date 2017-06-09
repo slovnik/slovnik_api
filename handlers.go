@@ -33,8 +33,17 @@ func translate(w http.ResponseWriter, r *http.Request) {
 	word := vars["word"]
 
 	lang := slovnik.DetectLanguage(word)
-	translations, _ := seznam.Translate(word, lang)
-	json.NewEncoder(w).Encode(translations)
+	translations, err := seznam.Translate(word, lang)
+
+	if err != nil {
+		log.Println(err)
+	}
+
+	err = json.NewEncoder(w).Encode(translations)
+
+	if err != nil {
+		log.Println(err)
+	}
 }
 
 func search(w http.ResponseWriter, r *http.Request) {
