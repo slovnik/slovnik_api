@@ -23,19 +23,19 @@
   branch = "master"
   name = "github.com/slovnik/seznam"
   packages = ["."]
-  revision = "0ae18bd1764a94907b66a95c71d94a0311cc72a8"
+  revision = "2ed1894188e2af8f1117d793a60902a13e03edfd"
 
 [[projects]]
   branch = "master"
   name = "github.com/slovnik/slovnik"
   packages = ["."]
-  revision = "443029432bd8cc880c795db39bcfea151548dc98"
+  revision = "792eef8ff45372dfed10840346944d80a39ce426"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
   packages = ["html","html/atom"]
-  revision = "48359f4f600b3a2d5cf657458e3f940021631a56"
+  revision = "dfe83d419c9403b40b19d08cdba2afec27b002f7"
 
 [solve-meta]
   analyzer-name = "dep"
