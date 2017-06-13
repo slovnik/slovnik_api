@@ -23,7 +23,7 @@
   branch = "master"
   name = "github.com/slovnik/seznam"
   packages = ["."]
-  revision = "2ed1894188e2af8f1117d793a60902a13e03edfd"
+  revision = "2f7f0949851bfd40dfaf0eab614d6226551b30f6"
 
 [[projects]]
   branch = "master"
