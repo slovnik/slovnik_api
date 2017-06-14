@@ -23,7 +23,7 @@
   branch = "master"
   name = "github.com/slovnik/seznam"
   packages = ["."]
-  revision = "2f7f0949851bfd40dfaf0eab614d6226551b30f6"
+  revision = "c8252ab7a452841c5287fa9ad5e16894f6a6ebc7"
 
 [[projects]]
   branch = "master"
@@ -35,7 +35,7 @@
   branch = "master"
   name = "golang.org/x/net"
   packages = ["html","html/atom"]
-  revision = "dfe83d419c9403b40b19d08cdba2afec27b002f7"
+  revision = "ddf80d0970594e2e4cccf5a98861cad3d9eaa4cd"
 
 [solve-meta]
   analyzer-name = "dep"
